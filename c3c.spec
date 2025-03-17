@@ -17,6 +17,8 @@ BuildRequires:	pkgconfig(zlib)
 BuildRequires:	pkgconfig(libzstd)
 BuildRequires:	pkgconfig(z3)
 BuildRequires:	llvm
+BuildRequires:  lib64llvm-devel
+BuildRequires:  llvm-polly-devel
 BuildRequires:	spirv-llvm-translator
 BuildRequires:	lib64lld-devel
 BuildRequires:	lib64mlir-devel
