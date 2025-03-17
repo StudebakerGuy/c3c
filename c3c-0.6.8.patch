@@ -1,0 +1,12 @@
+diff -up c3c-0.6.8/CMakeLists.txt.fix c3c-0.6.8/CMakeLists.txt
+--- c3c-0.6.8/CMakeLists.txt.fix	2025-03-16 19:52:37.984869647 -0400
++++ c3c-0.6.8/CMakeLists.txt	2025-03-16 19:53:27.764468794 -0400
+@@ -532,7 +532,7 @@ else()
+ endif()
+ 
+ install(TARGETS c3c DESTINATION bin)
+-install(DIRECTORY lib/ DESTINATION lib/c3)
++install(DIRECTORY lib/ DESTINATION lib64/c3)
+ 
+ # Man page install (OSX/Linux only)
+ if (NOT WIN32)
